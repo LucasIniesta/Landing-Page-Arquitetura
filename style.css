@@ -1,0 +1,122 @@
+body{
+    margin: 0 auto;
+    font-family: 'Inter';
+    width: 1440px;
+}
+
+#cabecalho{
+    background-color: #303030;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #FFF;
+}
+
+#cabecalho h1{
+    font-size: 60px;
+    line-height: 72px;
+}
+
+#cabecalho p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+#dados{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+
+.numeros{
+    font-size: 40px;
+    line-height: 28px;
+}
+
+.texto{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#conteudo{
+    display: grid;
+    grid-auto-flow: column;      
+}
+
+#conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 250px;
+}
+
+#conteudo-imagem{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#conteudo-texto h1{
+    font-size: 40px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+#conteudo-texto p{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#formulario{
+    background-color: #303030;
+    color: #FFF;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    row-gap: 50px;
+    padding-top: 50px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+#botao{
+    justify-self: center;
+    padding-top: 40px;
+    width: 286px;
+    padding: 10px;
+    height: 74px;
+    background-color: #c07212;
+    color:white;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#botao:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 5px 10px 0px rgba(255, 255, 255, 0.253);
+    transition-duration: 0.5s;
+}
+
+
